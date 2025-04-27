@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.cabecalho {
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #3da9fc;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+h5 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.4;
+    padding: 0 10px;
+}
+.titulo {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    display: flex; /* novo */
+    align-items: center; /* novo */
+    height: 100%; /* novo */
+    margin: 0; /* tira margens padrão */
+}
+
+
+.barrasecundaria{
+    text-align: center;
+}
+
+.btnbarra {
+    color: black;
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btnbarra:hover {
+    background-color: #3da9fc;
+}
+.btncabecalho {
+    background: white;
+    border-radius: 12px;
+    padding: 10px 20px; /* adiciona um respiro bonito */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    overflow: hidden;
+    transition: all 0.3s ease; /* deixa tudo suave */
+    text-decoration: none;
+    color: #3da9fc; /* azulzinho bonito no texto */
+    font-weight: 600; /* letra mais marcante */
+    font-size: 18px;
+    display: inline-block;
+}
+
+.btncabecalho:hover {
+    background-color: #3da9fc;
+    color: white; /* troca a cor da letra pra branco no hover */
+    transform: translateY(-3px); /* dá aquele efeito de "subir" ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* aumenta a sombra no hover */
+}
+img{
+    height: 600px;
+    width: 400px;
+    border: none;
+    }
+.logo{
+    img{
+        height: 200px;
+        width: 200px;
+        border: none;
+        border-radius: 5%;
+        }
+}
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    .card-container {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .card {
+        width: 90%;
+        max-width: none;
+        margin-bottom: 20px;
+    }
+
+    .btnbarra {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+}
+
+/* .card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.card {
+    background-color: #90b4ce;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 32px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 300px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+    background-color: #F0F0F0;
+}
+.card-img {
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: #3da9fc;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.card-text {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #777;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}*/
