@@ -27,50 +27,10 @@ h5 {
     text-align: center;
     display: flex; /* novo */
     align-items: center; /* novo */
-    height: 100%; /* novo */
+    height: 70%; /* novo */
     margin: 0; /* tira margens padrão */
 }
 
-
-.barrasecundaria{
-    text-align: center;
-}
-
-.btnbarra {
-    color: black;
-    background-color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.btnbarra:hover {
-    background-color: #3da9fc;
-}
-.btncabecalho {
-    background: white;
-    border-radius: 12px;
-    padding: 10px 20px; /* adiciona um respiro bonito */
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    overflow: hidden;
-    transition: all 0.3s ease; /* deixa tudo suave */
-    text-decoration: none;
-    color: #3da9fc; /* azulzinho bonito no texto */
-    font-weight: 600; /* letra mais marcante */
-    font-size: 18px;
-    display: inline-block;
-}
-
-.btncabecalho:hover {
-    background-color: #3da9fc;
-    color: white; /* troca a cor da letra pra branco no hover */
-    transform: translateY(-3px); /* dá aquele efeito de "subir" ao passar o mouse */
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* aumenta a sombra no hover */
-}
 img{
     height: 600px;
     width: 400px;
@@ -78,7 +38,7 @@ img{
     }
 .logo{
     img{
-        height: 200px;
+        height: 170px;
         width: 200px;
         border: none;
         border-radius: 5%;
